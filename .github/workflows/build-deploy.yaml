@@ -1,9 +1,10 @@
 on:
+  workflow_dispatch:
   pull_request:
     branches: 
-      - main
+      - build-automation
     types:
-      - closed
+      [closed]
 env:
   REPO_NAME: myciahru/itm350-myciahru-bb
 
