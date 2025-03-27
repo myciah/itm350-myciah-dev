@@ -1,0 +1,10 @@
+ami                         = "ami-04b4f1a9cf54c11d0"
+cluster_name		        = "TFCluster"
+container_image             = "eva96002/itm350-artemiseva-bb@sha256:e1ac7ff41e48370cdf65cf0e8efa918d413fead06972dfb9d4ee040ecaea3b82"
+container_port              = 8080
+instance_name_prefix	    = "ecs-itm350"
+instance_type               = "t2.micro"
+lab_role                    = "arn:aws:iam::709578098173:role/LabRole"
+region                      = "us-east-1"
+vpc_cidr		            = "10.0.0.0/21"
+vpc_prefix		            = "ecs-vpc"
